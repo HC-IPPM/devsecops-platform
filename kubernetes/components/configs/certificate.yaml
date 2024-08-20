@@ -4,6 +4,8 @@ metadata:
   name: mesh-gateway-cert
   namespace: istio-ingress
 spec:
+  # patched in ../../clusters/<env>/components.yaml
+  # <env> could be any directory inside of `clusters`
   dnsNames: []
   issuerRef:
     kind: ClusterIssuer
