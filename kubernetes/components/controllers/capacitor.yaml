@@ -15,6 +15,7 @@ spec:
   url: oci://ghcr.io/gimlet-io/capacitor-manifests
   ref:
     tag: 'v0.4.1'
+    digest: sha256:4d58735e3bbc4f77fb4516860597821f44703e5b6daf54cf1b0cc48fee113ee1
   verify:
     provider: cosign
     matchOIDCIdentity:
