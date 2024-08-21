@@ -24,12 +24,11 @@
   },
   "packageRules": [
     {
-      "description": 'Ignore pinning for capacitor',
+      "description": 'Ignore digest for capacitor',
       "matchPackageNames": [
         'ghcr.io/gimlet-io/capacitor-manifests',
       ],
-      "matchUpdateTypes": ['pinDigest'],
-      "enabled": false,
+      "autoReplaceStringTemplate": "{{#if newValue}}{{newValue}}{{/if}}",
     },
   ],
 }
