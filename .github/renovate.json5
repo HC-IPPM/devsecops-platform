@@ -22,16 +22,14 @@
       "(^|/)kubernetes/.+\\.ya?ml(?:\\.j2)?$"
     ]
   },
-  packageRules: [
+  "packageRules": [
     {
-      description: 'Ignore pinning for capacitor',
-      matchPackageNames: [
+      "description": 'Ignore pinning for capacitor',
+      "matchPackageNames": [
         'ghcr.io/gimlet-io/capacitor-manifests',
       ],
-      matchUpdateTypes: ['pinDigest'],
-      pinDigest: {
-        enabled: false,
-      },
+      "matchUpdateTypes": ['pinDigest'],
+      "enabled": false,
     },
   ],
 }
