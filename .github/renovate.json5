@@ -28,7 +28,9 @@
       "matchPackageNames": [
         'ghcr.io/gimlet-io/capacitor-manifests',
       ],
-      "pinDigests": false
+      "pinDigest": {
+        "enabled": false
+      },
     },
   ],
 }
