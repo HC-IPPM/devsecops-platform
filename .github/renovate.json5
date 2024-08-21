@@ -29,6 +29,9 @@
         'ghcr.io/gimlet-io/capacitor-manifests',
       ],
       "autoReplaceStringTemplate": "{{#if newValue}}{{newValue}}{{/if}}",
+      pinDigest: {
+        enabled: false,
+      },
     },
   ],
 }
