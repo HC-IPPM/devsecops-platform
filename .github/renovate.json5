@@ -22,15 +22,4 @@
       "(^|/)kubernetes/.+\\.ya?ml(?:\\.j2)?$"
     ]
   },
-  "packageRules": [
-    {
-      "description": 'Ignore digest for capacitor',
-      "matchPackageNames": [
-        'ghcr.io/gimlet-io/capacitor-manifests',
-      ],
-      "pinDigest": {
-        "enabled": false
-      },
-    },
-  ],
 }
