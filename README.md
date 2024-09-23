@@ -1,5 +1,7 @@
 # devsecops-platform
 
+[Why?](https://github.com/PHACDataHub/node-microservices-demo?tab=readme-ov-file#wait-why-a-brief-detour-into-policy)
+
 > [!Warning]
 > 
 > This repository is a work in progress and changes may occur without notice.
