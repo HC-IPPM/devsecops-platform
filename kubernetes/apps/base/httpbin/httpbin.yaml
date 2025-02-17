@@ -53,7 +53,7 @@ spec:
     spec:
       serviceAccountName: httpbin
       containers:
-      - image: docker.io/kong/httpbin@sha256:5aee7b0cfa825e1317ad795f65e88f63cd66d227f43a3988060d4878dd7a8897
+      - image: docker.io/kong/httpbin@sha256:a6ac46531193a8009ca7d83d6a2d76b3114a7ab77c73aec5b8007c92206621f3
         imagePullPolicy: IfNotPresent
         name: httpbin
         # Same as found in Dockerfile's CMD but using an unprivileged port
