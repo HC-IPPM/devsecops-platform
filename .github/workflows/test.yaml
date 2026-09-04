@@ -17,9 +17,9 @@ jobs:
       - name: Setup yq
         uses: mikefarah/yq@4839dbbf80445070a31c7a9c1055da527db2d5ee # v4
       - name: Setup kustomize
-        uses: fluxcd/pkg/actions/kustomize@main
+        uses: fluxcd/pkg/actions/kustomize@c437e4fbd78f4be7376d78d980add852ff6aa329 # main
       - name: Setup kubeconform
-        uses: fluxcd/pkg/actions/kubeconform@main
+        uses: fluxcd/pkg/actions/kubeconform@c437e4fbd78f4be7376d78d980add852ff6aa329 # main
       - name: Validate schemas
         run: |
           set -euxo pipefail
