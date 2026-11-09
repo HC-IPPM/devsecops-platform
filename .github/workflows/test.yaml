@@ -15,7 +15,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
       - name: Setup yq
-        uses: mikefarah/yq@4839dbbf80445070a31c7a9c1055da527db2d5ee # v4
+        uses: mikefarah/yq@f2944b823f84906a127dbd29e4c2a3e60c4e550e # v4
       - name: Setup kustomize
         uses: fluxcd/pkg/actions/kustomize@main
       - name: Setup kubeconform
