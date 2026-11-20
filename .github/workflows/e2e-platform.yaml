@@ -15,7 +15,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
       - name: Setup fluxcli
-        uses: fluxcd/flux2/action@main
+        uses: fluxcd/flux2/action@1816c594f1c4e37df419638f4b69a8ab39e0ed6b # main
         # https://cloud.google.com/service-mesh/v1.20/docs/downloading-istioctl#linux
       - name: Setup asm istioctl
         run: |
